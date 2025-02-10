@@ -8,3 +8,6 @@ settings.ini
 CMakeUserPresets.json
 .cache/
 .idea/
+obj/
+bin/
+Makefile
