@@ -44,6 +44,8 @@ typedef struct b2WorldId
 typedef struct b2BodyId
 {
 	int32_t index1;
+	int32_t actorID;
+	int32_t actorGen;
 	uint16_t world0;
 	uint16_t generation;
 } b2BodyId;
@@ -52,6 +54,8 @@ typedef struct b2BodyId
 typedef struct b2ShapeId
 {
 	int32_t index1;
+	int32_t actorID;
+	int32_t actorGen;
 	uint16_t world0;
 	uint16_t generation;
 } b2ShapeId;
@@ -60,6 +64,8 @@ typedef struct b2ShapeId
 typedef struct b2ChainId
 {
 	int32_t index1;
+	int32_t actorID;
+	int32_t actorGen;
 	uint16_t world0;
 	uint16_t generation;
 } b2ChainId;
